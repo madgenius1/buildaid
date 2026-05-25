@@ -39,6 +39,15 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": "https://replit.com/"
+      },
+      "eas": {
+        "projectId": "bd2ba314-d76f-47d9-8930-83b53a806528"
+      }
+    },
+    "owner": "nickjuma"
   }
 }
