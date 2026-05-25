@@ -16,7 +16,9 @@
     "ios": {
       "supportsTablet": false
     },
-    "android": {},
+    "android": {
+      "package": "com.nickjuma.buildaid"
+    },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
@@ -31,7 +33,8 @@
       "expo-web-browser",
       "expo-image",
       "expo-splash-screen",
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-sharing"
     ],
     "experiments": {
       "typedRoutes": true,
