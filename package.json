@@ -8,7 +8,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "dev": "cross-env APP_VARIANT=development npx expo start"
   },
   "dependencies": {
     "@expo-google-fonts/manrope": "^0.4.2",
@@ -36,6 +37,7 @@
     "expo-status-bar": "~56.0.4",
     "expo-symbols": "~56.0.5",
     "expo-system-ui": "~56.0.5",
+    "expo-updates": "~56.0.17",
     "expo-web-browser": "~56.0.5",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -50,6 +52,7 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
+    "cross-env": "^10.1.0",
     "typescript": "~6.0.3"
   },
   "private": true

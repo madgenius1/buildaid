@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "buildaid",
+    "name": "BuildAid",
     "slug": "buildaid",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,7 +14,8 @@
       "backgroundColor": "#F8F7F4"
     },
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nickjuma.buildaid"
     },
     "android": {
       "package": "com.nickjuma.buildaid"
@@ -48,6 +49,12 @@
         "projectId": "bd2ba314-d76f-47d9-8930-83b53a806528"
       }
     },
-    "owner": "nickjuma"
+    "owner": "nickjuma",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bd2ba314-d76f-47d9-8930-83b53a806528"
+    }
   }
 }
